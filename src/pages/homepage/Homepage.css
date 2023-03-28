@@ -1,0 +1,59 @@
+.original__movies {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .original__movies,
+  .movies__container {
+    /* padding-left: 50px; */
+    padding: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  .original__movies::-webkit-scrollbar,.movies__container::-webkit-scrollbar  {
+    display: none;
+  }
+  
+  .original__movies > .card__img {
+    margin-right: 10px;
+    height: 250px;
+    width: auto;
+  }
+  
+  .original__movies img,
+  .movies__container img {
+    /* transition: all 0.2s ease-out; */
+    transition: transform 450ms;
+    cursor: pointer;
+  }
+  
+  .original__movies > .card__img:hover,
+  .movies__container > .card__img:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 5px 5px 15px 5px #F7F7F7; 
+    box-shadow: 5px 5px 15px 5px #F7F7F7;
+  }
+  
+  .movies__container > .card__img {
+    margin: 0px 10px 0px 0px;
+    width: 200px;
+  }
+  
+
+  .card__img {
+    width: 100px;
+  }
+  
+  .card__title > h2,
+  .movies__header > h2 {
+    padding-left: 30px;
+  }
+
+  .caroursel__backface {
+    backface-visibility: hidden;
+  }
+  
+
+  

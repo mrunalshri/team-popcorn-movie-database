@@ -1,0 +1,75 @@
+{
+  "name": "tr_project_teamb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@types/node": "^16.18.16",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "dotenv": "^16.0.3",
+    "lodash.debounce": "^4.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/lodash.debounce": "^4.0.7",
+    "jest": "^27.5.1",
+    "msw": "^1.1.0",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --silent",
+    "test:coverage": "react-scripts test --coverage --watchAll",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/react-app-env.d.ts",
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/App.tsx",
+      "<rootDir>/src/router/router.tsx",
+      "<rootDir>/src/reportWebVitals.ts",
+      "<rootDir>/src/scripts/fetch/testing/mswConfig/handlers.ts",
+      "<rootDir>/src/types",
+      "<rootDir>/src/layout/layout.tsx",
+      ".mock.ts"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

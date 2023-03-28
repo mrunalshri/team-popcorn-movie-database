@@ -1,0 +1,16 @@
+.HealthContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.HealthContainer {
+	font-size: 8rem;
+	font-weight: bold;
+}
+
+.HealthEmoji {
+	font-size: 7rem;
+}

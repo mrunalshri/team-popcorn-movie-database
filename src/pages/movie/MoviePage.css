@@ -1,0 +1,131 @@
+.moviePage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 10px;
+}
+
+.moviePage > * {
+}
+
+.moviePage__details {
+	padding: 10px;
+	display: flex;
+	gap: 10px;
+	align-content: center;
+	justify-content: space-evenly;
+}
+
+.moviePage__details__infoBox h2 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.moviePage__title {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.moviePage__details__img {
+	max-height: 30em;
+	align-self: center;
+}
+
+.moviePage__details__infoBox {
+	max-width: fit-content;
+	font-size: 1.4em;
+}
+
+.infoBox__tagline {
+	padding: 1em;
+	font-size: 1.2em;
+	background-color: rgba(30, 30, 30, 0.25);
+	text-shadow: 1.8px 1px darkgray;
+	text-align: center;
+	font-style: italic;
+}
+
+.infoBox__detailsTitle {
+	text-decoration: underline;
+	padding: 10px;
+}
+
+.infoBox__detailsBox {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1em 1em;
+}
+
+.infoBox__detailsBox h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.infoBox__detailsBox p {
+	font-size: 1.2em;
+	text-indent: 1.3em;
+}
+
+.moviePage__Cast {
+	display: flex;
+	gap: 20px;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.moviePage__Cast__title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.moviePage__Cast__card {
+	display: flex;
+	flex-direction: column;
+}
+
+.moviePage__Cast__card__img {
+	height: 250px;
+	width: auto;
+	align-self: center;
+	transition: all 0.5s ease-in-out;
+}
+
+.moviePage__Cast__card__img:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: transform 0.5s ease-in-out;
+}
+
+.moviePage__Cast__card__name {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.moviePage__Cast__card__character {
+	text-align: center;
+	font-size: 1.15em;
+	font-style: italic;
+}
+
+.moviePage__Trailer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	gap: 10px;
+}
+
+.moviePage__Trailer__video {
+	aspect-ratio: 16 / 9;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	border: 1.5px rgba(255, 255, 255, 0.6) solid;
+}
+
+.movieTrailers__title {
+	font-size: 1.8em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}

@@ -40,14 +40,14 @@ const SearchResult: React.FC<SearchResults> = ({ searchResults }) => {
                         {original_title}
                       </span>
                       <p className="py-1">
-                        {overview && overview.length >= 200 ? (
+                        {overview && overview.length >= 150 ? (
                           <button
                             onClick={() => {
                               navigate(`/movie/${id}`);
                             }}
                             className="text-white text-left"
                           >
-                            {overview?.slice(0, 200)}
+                            {overview?.slice(0, 150)}
                             <span className="text-blue-500"> Read More..</span>
                           </button>
                         ) : (

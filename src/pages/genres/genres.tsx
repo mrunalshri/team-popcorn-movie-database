@@ -21,7 +21,7 @@ const Genres: React.FC = () => {
 
   useEffect(() => {
     const fetchMovieByGenre = async () => {
-      const moviesData = await APIFetch("/discover/movie/", [
+      const moviesData = await APIFetch("/discover/movie", [
         { param: "with_genres", value: selectedGenre },
       ]);
 
